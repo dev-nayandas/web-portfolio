@@ -1,8 +1,9 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 70px;
+    font-size: 50px;
     font-family:'Akronim', cursive;
 }
 p{
@@ -51,6 +52,7 @@ section{
     border-radius: 10px;
     height: 50%;
     background-color: white;
+    margin-top: 25px;
 }
 #full-stack{
     border-left: 10px solid;
@@ -64,4 +66,5 @@ section{
 }
 footer p{
     text-align: center;
+    font-size: 12px;
 }
