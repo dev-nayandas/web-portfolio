@@ -8,8 +8,8 @@ h1{
 p{
     color: dimgray;
 }
-.name-highlight{
-    color: rebeccapurple;
+.orange-highlight{
+    color: rgba(243, 162, 11, 0.884);
 }
 .half-width{
     width: 40%;
@@ -35,4 +35,33 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700px;
+}.dream-part{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.exprience-part{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-exprience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    background-color: white;
+}
+#full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
